@@ -212,8 +212,8 @@ body{
     transition: 0.5s;
 }
 .img-header .welcome > button:hover{
-    width: 20%;
-    height: 6%;
+    width: 17%;
+    height: 5%;
     color: red;
     background-color: white;
     border-radius: 19px;
