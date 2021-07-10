@@ -201,6 +201,7 @@ body{
     background: rgba(0,0,0,0.1);
 
     height: 2em;
+    width: 10em;
     border-radius: 0.7em;
     border:none;
     outline: none;
