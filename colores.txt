@@ -1,0 +1,2 @@
+#1abc9c - principal
+#ee5253 - botones/secundario
