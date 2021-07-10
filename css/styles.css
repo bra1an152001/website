@@ -404,15 +404,16 @@ body{
     width: 100%;
 }
 .footer .container{
-    background:rgba(0,0,0,0.5);
+    background:#2d3436;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 5px;
+    padding-bottom: 0;
     align-items: center;
-    border-top:5px solid var(--grey);
+    border-top:1px solid var(--grey);
 }
 .footer .container .copy{
+    font-family: 'Pacifico', cursive;
     margin-top: 5px;
     font-size: 15px;
 }
@@ -423,7 +424,7 @@ body{
     font-size: 30px;
 }
 .footer .container .sociales a{
-    color: #333;
+    color: white;
     text-decoration: none;
     transition: all .2s ease 0s;
 }
@@ -434,7 +435,7 @@ body{
     color: #1e3799;
 }
 .footer .container .sociales .icon-youtube:hover{
-    color: #c23616;
+    color: red;
 }
 .footer .container .sociales .icon-instagram:hover{
     color: #833471;
