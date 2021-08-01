@@ -4,13 +4,14 @@
     <title>TEAconsejamos | Inicio</title>
     <meta charset="UTF-8">
      <meta name="viewport" content="width-device-width, user-scalable-no, initial-scale-1, maximum-scale-1, minimum-scale-1">
-    <!-- Estilos Css -->
-    
-    
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">  
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/fontello.css">
+    <script src="main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/35db202371.js"></script>
 </head>
 <body>
 
@@ -21,29 +22,28 @@
 
     <!-- Menu de Navegacion -->
     <header id="header">
-    <nav class="menu">
-     <div class="logo-box">
-       <h1><a href="index.html">Change</a></h1>
-       <span class="btn-menu"><i class="fas fa-bars"></i></span>
-     </div>
-     
-     <div class="list-container">
-        <ul class="lists">
-            <li><a href="index.html" class="active">Inicio</a></li>
-            <li><a href="#ambientes">Ambientes</a></li>
-            <li><a href="#sobre_nosotros">Sobre Nosotros</a></li>
+        <nav>
+    <div class="container">
+        <input id="responsive-menu" type="checkbox">
+        <label for="responsive-menu">TeaConsejamos <span id="menu-icon"></span></label>
+        <div id="overlay"></div>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Ambientes</a></li>
+            <li><a href="">Nosotros</a></li>
             <li><a href="formulario.html">Contacto</a></li>
         </ul>
-     </div>
-    </nav>
- 
+    </div>
+</nav>
+
+
+        
     <!-- Imagen Header -->
     <div class="img-header">
      <div class="welcome">
        <h1>Adaptándonos al Mundo</h1>
        <hr>
        <p>TEAconsejamos</p>
-       <button id="abajo">Comenzar</button>
      </div>       
     </div>
     </header>
@@ -52,57 +52,27 @@
     <!--Ambientes-->
    <section id="ambientes" class="picto">
     <div class="picto-title">
-     <h2>Ambientes</h2>
+     <h2>Inicio</h2>
      <hr>
     </div>
 
      <div class="box-picto">
       <div class="card-picto">
-        <div class="card-img"> <img src="img/calle2.png" alt=""></div>
+        <div class="card-img"> 
+            <a href="formulario.html"><img src="img/ambiente.jpg" alt=""></div></a>
         <div class="picto-text">
-        <h4>Calle</h4>
-        <p>"En este entorno encontrará por lo general vehiculos de todo tipo, personas alrededor, viviendas, etc."</p>
+        <p>Tenemos una gran variedad de ambientes , ingresa para verlos todos!</p>
         </div>
       </div>
 
       <div class="card-picto">
-          <div class="card-img"> <img src="img/dentista2.png" alt=""></div>
+          <div class="card-img"> 
+            <a href="https://www.youtube.com/watch?v=K7gR6128_xA"><img src="img/relax.jpg" alt=""></a>
+        </div>
           <div class="picto-text">
-          <h4>Dentista</h4>
-          <p>En este entorno encontrará al especialista junto con sus herramientas de trabajo, entre otras cosas.</p>
+          <p>Aqui encontraras videos y demas para relajarte y divertirte</p>
           </div>
         </div>
-
-        <div class="card-picto">
-            <div class="card-img"><img src="img/m%C3%A9dico2.png" alt="">  </div>
-            <div class="picto-text">
-            <h4>Medico</h4>
-            <p>En este entorno encontrará al especialista junto con sus herramientas de trabajo, entre otras cosas.</p>
-            </div>
-          </div>
-
-          <div class="card-picto">
-              <div class="card-img"><img src="img/peluqueria2.png" alt=""> </div>
-              <div class="picto-text">
-              <h4>Peluqueria</h4>
-              <p>En este entorno también encontrará al especialista junto con sus herramientas de trabajo, entre otras cosas.</p>
-              </div>
-            </div>
-         
-         <div class="card-picto">
-              <div class="card-img"><img src="img/playa2.png" alt="">   </div>
-              <div class="picto-text">
-              <h4>Playa</h4>
-              <p>En este entorno por lo general encontrará rocas, arena, mar, caracoles de mar, mayormente muchas personas.</p>
-              </div>
-            </div>
-         <div class="card-picto">
-              <div class="card-img"><img src="img/supermercado.png" alt="">    </div>
-              <div class="picto-text">
-              <h4>Supermercado</h4>
-              <p>En este entorno por lo general encontrará elementos para el hogar, como tambien alimentos para las personas, tambien es posible encontrarse con muchas personas haciendo compras.</p>
-              </div>
-            </div>         
 
      </div>
    </section>
@@ -110,22 +80,16 @@
  </main> 
 
  <!-- Footer -->
- <footer id="contactos" class="footer">
-        <div class="container">
-            <p class="copy">Change &copy;2021| Todos los derechos reservados</p>
-            <div class="sociales">
-                <a class="icon-facebook" href="#" ></a>
-                <a class="icon-instagram" href="#" ></a>
-                <a class="icon-youtube" href="#" ></a>
+        <footer>
+            <div class="social">
+                <a href="#"><i class="icon ion-social-instagram"></i></a>
+                <a href="#"><i class="icon ion-social-youtube"></i></a>
+                <a href="#"><i class="icon ion-social-twitter"></i></a>
+                <a href="#"><i class="icon ion-social-facebook"></i></a>
             </div>
-
-            </div>
-        
         </footer>
-
-<!-- Scripts -->
-<script src="https://kit.fontawesome.com/35db202371.js"></script>
-<script src="js/app.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  
 </body>
 </html>
