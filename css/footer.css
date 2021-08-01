@@ -5,13 +5,12 @@ body {
     padding: 0;
     flex-wrap: wrap;
     min-height: 100vh;
-    overflow-y:hidden
 
 }
 footer{
   width: 100%;
   bottom: 0 !important;
-  position: fixed;
+  position: absolute;
 
   left: 0;
   background-color: #dcdde1;
