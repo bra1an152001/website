@@ -5,13 +5,14 @@ body {
     padding: 0;
     flex-wrap: wrap;
     min-height: 100vh;
-    overflow-y:hidden;
+    overflow-y:hidden
 
 }
 footer{
   width: 100%;
   bottom: 0 !important;
   position: fixed;
+
   left: 0;
   background-color: #dcdde1;
   color:#4b4c4d;
@@ -22,6 +23,7 @@ footer{
 footer .social {
   text-align:center;
   padding-bottom:0;
+  position: ;
 }
 
 footer .social > a {
@@ -36,6 +38,7 @@ footer .social > a {
   margin:0 8px;
   color:inherit;
   opacity:0.75;
+
 }
 
 footer .social > a:hover {
