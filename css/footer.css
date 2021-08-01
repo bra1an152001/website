@@ -5,6 +5,7 @@ body {
     padding: 0;
     flex-wrap: wrap;
     min-height: 100vh;
+    overflow-y:hidden;
 
 }
 footer{
