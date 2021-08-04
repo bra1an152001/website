@@ -184,50 +184,7 @@ p{
     line-height: 35px;
     margin:10px 0px;
 }
-.acerca-de .info-container .about-more{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.acerca-de .info-container .about-more button{
-
-
-    width: 10em;
-    height: 3em;
-    text-align: center;
-    line-height: 40px;
-    font-size: 20px;
-    background: transparent;
-    text-decoration: none;
-    border: #2f3640 3px solid;
-    outline: none;
-    border-radius: 20px;
-    color: black;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.acerca-de .info-container .about-more button:hover{
-    font-size: 22px;
-    background: #353b48;
-    color: white;
-    border: #dcdde1 3px solid;
-
-}
-
 @media only screen and (max-width:590px){
     .acerca-de .info-container h1{font-size: 30px;}
     .acerca-de .info-container p{font-size: 15px;}
-}
-
-@media (width: 980px) { 
-    .acerca-de .info-container .about-more button{
-    font-size: 29px;
-}
-.acerca-de .info-container .about-more button:hover{
-    font-size: 31px;
-    background: #353b48;
-    color: white;
-    border: #dcdde1 3px solid;
-
-}
 }
