@@ -28,7 +28,7 @@ body{
 .img-header{
     position: relative;
     height: 35vh;
-    background:url('https://w.wallhaven.cc/full/4l/wallhaven-4l8ol2.jpg');
+    background:url('../img/fondoA.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: 100vw 100vh;
