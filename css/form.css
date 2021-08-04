@@ -52,11 +52,11 @@ textarea{
 	min-height: 100px;
 	max-height: 200px;
 	max-width: 100%;
-	color: #a4b0be;
+	color: white;
 }
 input{
 	background: rgba(0,0,0,0.5);
-	color: #a4b0be;
+	color: white;
 }
 #boton{
 	background: rgba(0,0,0,0.5);
