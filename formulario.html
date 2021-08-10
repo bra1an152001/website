@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>TEAconsejamos | Inicio</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width-device-width, user-scalable-no, initial-scale-1, maximum-scale-1, minimum-scale-1">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+    <!-- Menu de Navegacion -->
+    <header id="header">
+        <nav>
+    <div class="container">
+        <input id="responsive-menu" type="checkbox">
+        <label for="responsive-menu" id="icono">TEAconsejamos <span id="menu-icon"></span></label>
+        <div id="overlay"></div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="ambientes.html">Ambientes</a></li>
+        </ul>
+    </div>
+</nav>
+
+ <!-- Imagen Header -->
+    <div class="img-header">
+     </div>       
+
+    </header>
+
+    <form action="enviar.php" method="post">
+        <h2>Contacto</h2>
+        <input type="text" name="nombre" placeholder="Nombre..." required>
+        <input type="email" name="email" placeholder="Correo..." required>
+        <input type="text" name="asunto" placeholder="Asunto..." required>
+        <textarea name="mensaje" placeholder="Escriba su mensaje:" required></textarea>
+        <input type="submit" value="Enviar" id="boton">
+
+
+    </form>
+</body>
+</html>
