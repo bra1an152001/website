@@ -29,11 +29,10 @@
 
     </header>
 
-    <form action="enviar.php" method="post">
+    <form name="contact" method="POST" data-netlify="true">
         <h2>Contacto</h2>
-        <input type="text" name="nombre" placeholder="Nombre..." required>
+        <input type="text" name="name" placeholder="Nombre..." required>
         <input type="email" name="email" placeholder="Correo..." required>
-        <input type="text" name="asunto" placeholder="Asunto..." required>
         <textarea name="mensaje" placeholder="Escriba su mensaje:" required></textarea>
         <input type="submit" value="Enviar" id="boton">
 
