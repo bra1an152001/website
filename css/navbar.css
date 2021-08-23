@@ -70,7 +70,7 @@
       font-size: 30px;
     }
   }
-  @media screen and (width: 960px) {
+  @media screen and (max-width: 960px) {
 
     .topnav a {
       font-family: 'Rampart One', cursive;
@@ -78,8 +78,8 @@
       display: block;
       color: black;
       text-align: center;
-      padding: 40px 40px;
+      padding: 25px 25px;
       text-decoration: none;
-      font-size: 30px;
+      font-size: 1.5em;
     }
   }
