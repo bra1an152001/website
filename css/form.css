@@ -7,68 +7,72 @@ body{
 	background-position: center;
 	background-attachment: fixed;
 	margin: 0;
-
-
 }
 
 form{
-
-	width: 700px;
+	box-shadow:0 0 40px -10px #000;
+	width: 35em;
+	height: 45em;
 	margin: auto;
-	border-bottom: white  5px solid;
-	border-top: white 5px solid;
-	border-right: white 5px solid;
-	border-left: white 5px solid;
-	padding: 70px 70px;
+	background-color: white;
+	padding: 1.6em 1.6em;
 	box-sizing: border-box;
-	margin-top:10em;
-	border-radius: 50px;
-
-
+	margin-top:8em;
+	border-radius: 5px;
 }
 h2{
+	
 	font-family: 'Gowun Dodum', sans-serif;
-	color: white;
+	color: black;
 	text-align: center;
-	margin: 0;
-	font-size: 70px;
-	margin-bottom: 20px;
+	margin: 0.6em;
+	font-size: 63px;
+	margin-bottom: 45px;
 }
 
 input,textarea{
 	font-family: 'Gowun Dodum', sans-serif;
 	width: 100%;
-	margin-bottom: 20px;
-	padding: 7px;
-	border-radius: 10px;
+	margin-bottom: 25px;
+	padding: 20px;
+	border-radius: 5px;
 	box-sizing: border-box;
-	font-size: 17px;
-	border: none;
+	font-size: 20px;
+	border: 1px solid black;
 }
 textarea{
-	background: rgba(0,0,0,0.5);
+	background: white;
+	border: 1px solid black;
 	border-radius: 10px;
+	min-width: 100%;
 	min-height: 100px;
 	max-height: 200px;
 	max-width: 100%;
-	color: white;
+	color: black;
 }
 input{
-	background: rgba(0,0,0,0.5);
-	color: white;
+	background: white;
+	color: black;
 }
 #boton{
-	background: rgba(0,0,0,0.5);
-	font-size: 20px;
-	color: white;
-	padding: 30px;
-	border-radius: 20px;
+	box-shadow:0 0 40px -10px #000;
+	background: white;
+	font-size: 30px;
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
 
 }
 #boton:hover{
 	cursor: pointer;
-	background: rgba(0,0,0,0.8);
+	background: #dcdde1;
+	
 }
+
+
+
+
 
 
 
@@ -86,61 +90,65 @@ input{
 
 
 
-	form{
-	width: 850px;
-	height: 750px;
+form{
+	box-shadow:0 0 40px -10px #000;
+	width: 55em;
+	height: 70em;
 	margin: auto;
-	background: rgba(0,0,0,0.2);
-	padding: 30px 30px;
+	background-color: white;
+	padding: 1.6em 1.6em;
 	box-sizing: border-box;
-	margin-top:22em;
-	border-radius: 50px;
-	overflow-y:hidden;
-
-
+	margin-top:8em;
+	border-radius: 5px;
 }
 h2{
+	
 	font-family: 'Gowun Dodum', sans-serif;
-	color: white;
+	color: black;
 	text-align: center;
-	margin: 0;
-	font-size: 120px;
-	margin-bottom: 32px;
+	margin: 0.6em;
+	font-size: 63px;
+	margin-bottom: 45px;
 }
 
 input,textarea{
 	font-family: 'Gowun Dodum', sans-serif;
 	width: 100%;
-	margin-bottom: 20px;
-	padding: 20px;
-	border-radius: 10px;
+	margin-bottom: 65px;
+	padding: 45px;
+	border-radius: 5px;
 	box-sizing: border-box;
-	font-size: 25px;
-	border: none;
+	font-size: 35px;
+	border: 1px solid black;
 }
 textarea{
-	background: rgba(0,0,0,0.2);
+	background: white;
+	border: 1px solid black;
 	border-radius: 10px;
+	min-width: 100%;
 	min-height: 100px;
 	max-height: 200px;
 	max-width: 100%;
-	color: #a4b0be;
+	color: black;
 }
 input{
-	background: rgba(0,0,0,0.2);
-	color: #a4b0be;
+	background: white;
+	color: black;
 }
 #boton{
-	background: rgba(0,0,0,0.4);
-	font-size: 20px;
-	color: white;
-	padding: 30px;
-	border-radius: 20px;
+	box-shadow:0 0 40px -10px #000;
+	background: white;
+	font-size: 60px;
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
 
 }
 #boton:hover{
 	cursor: pointer;
-	background: rgba(0,0,0,0.6);
+	background: #dcdde1;
+	
 }
 
 
