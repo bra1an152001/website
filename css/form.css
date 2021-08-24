@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Roboto+Mono:ital,wght@1,100&family=Zen+Loop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 body{
@@ -22,7 +23,7 @@ form{
 }
 h2{
 	
-	font-family: 'Gowun Dodum', sans-serif;
+	font-family: 'Rampart One', cursive;
 	color: black;
 	text-align: center;
 	margin: 0.6em;
@@ -55,6 +56,7 @@ input{
 	color: black;
 }
 #boton{
+	font-family: 'Rampart One', cursive;
 	box-shadow:0 0 40px -10px #000;
 	background: white;
 	font-size: 30px;
@@ -103,7 +105,7 @@ form{
 }
 h2{
 	
-	font-family: 'Gowun Dodum', sans-serif;
+	font-family: 'Rampart One', cursive;
 	color: black;
 	text-align: center;
 	margin: 0.6em;
@@ -136,6 +138,7 @@ input{
 	color: black;
 }
 #boton{
+	font-family: 'Rampart One', cursive;
 	box-shadow:0 0 40px -10px #000;
 	background: white;
 	font-size: 60px;
